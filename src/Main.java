@@ -130,5 +130,41 @@ public class Main {
         int generalDay = (Day250+Day500)/2;
         System.out.println("В среднем спортсмен похудеет через " +generalDay+ " дней.");
 
+        System.out.println();
+        System.out.println("Задача 8");
+
+        int salaryMasha=67_760;
+        int salaryDenis=83_690;
+        int salaryKristina=76_230;
+
+        System.out.println();
+        short year=12; // месяцев в году
+        int yearSalaryMasha=year*salaryMasha;
+        int yearSalaryDenis=year*salaryDenis;
+        int yearSalaryKristina=year*salaryKristina;
+        System.out.println("Доход Маши за прошлый год: "+ yearSalaryMasha + " рублей");
+        System.out.println("Доход Дениса за прошлый год: "+ yearSalaryDenis + " рублей");
+        System.out.println("Доход Кристины за прошлый год: "+ yearSalaryKristina + " рублей");
+
+        float raising=10; // повышение в процентах
+        raising=(raising/100)+1; // пересчет процентов
+
+        float newYearSalaryMasha = raising * yearSalaryMasha;
+        float newYearSalaryDenis = raising * yearSalaryDenis;
+        float newYearSalaryKristina = raising * yearSalaryKristina;
+
+        System.out.println();
+        System.out.println("Будущий доход Маши на текущий год: "+ newYearSalaryMasha + " рублей");
+        System.out.println("Будущий доход Дениса на текущий год: "+ newYearSalaryDenis + " рублей");
+        System.out.println("Будущий доход Кристины на текущий год: "+ newYearSalaryKristina + " рублей");
+
+        float yearDifferenceMasha = newYearSalaryMasha-yearSalaryMasha;
+        float yearDifferenceDenis = newYearSalaryDenis-yearSalaryDenis;
+        float yearDifferenceKristina = newYearSalaryKristina-yearSalaryKristina;
+
+        System.out.println();
+        System.out.println("Разница между годовыми доходами у Маши составит: "+ yearDifferenceMasha + " рублей");
+        System.out.println("Разница между годовыми доходами у Дениса составит: "+ yearDifferenceDenis + " рублей");
+        System.out.println("Разница между годовыми доходами у Кристины составит: "+ yearDifferenceKristina + " рублей");
     }
 }
