@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Задача 1");
         int x1=1_000_000_000;
         byte x2=127;
         short x3=1_000;
@@ -13,5 +14,25 @@ public class Main {
         System.out.println("Значение переменной x4 с типом long равно "+x4);
         System.out.println("Значение переменной x5 с типом float равно "+x5);
         System.out.println("Значение переменной x6 с типом double равно "+x6);
+
+        System.out.println();
+        System.out.println("Задача 2");
+        int x7=-159;
+        byte x8=67;
+        short x9=27_897;
+        long x10=987_678_965_549L;
+        float x11=27.12f;
+        double x12=2.786;
+        char x13 = 569;
+        boolean x14 = false;
+
+        System.out.println("Значение переменной x7 с типом int равно "+x7);
+        System.out.println("Значение переменной x8 с типом byte равно "+x8);
+        System.out.println("Значение переменной x9 с типом short равно "+x9);
+        System.out.println("Значение переменной x10 с типом long равно "+x10);
+        System.out.println("Значение переменной x11 с типом float равно "+x11);
+        System.out.println("Значение переменной x12 с типом double равно "+x12);
+        System.out.println("Значение переменной x13 с типом char равно "+x13);
+        System.out.println("Значение переменной x14 с типом boolean равно "+x14);
     }
 }
