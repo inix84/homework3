@@ -34,5 +34,17 @@ public class Main {
         System.out.println("Значение переменной x12 с типом double равно "+x12);
         System.out.println("Значение переменной x13 с типом char равно "+x13);
         System.out.println("Значение переменной x14 с типом boolean равно "+x14);
+
+        System.out.println();
+        System.out.println("Задача 3");
+        short studentsLP=23;
+        short studentsAS=27;
+        short studentsEA=30;
+        int sumStudents = studentsLP+studentsAS+studentsEA;
+        System.out.print("Всего в трёх классах учится "+ sumStudents + " учеников, ");
+        short paperAll = 480;
+        int paper1 = paperAll/sumStudents;
+        System.out.println("на каждого ученика рассчитано по "+paper1+" листов бумаги.");
+
     }
 }
