@@ -108,10 +108,27 @@ public class Main {
         eggsWeight=eggs*eggGrams;
 
         float sumWeight=bananasWeight+Milk100mlWeight+plombirWeight+eggsWeight;
-        System.out.println("вес спорт-завтрака "+sumWeight+ " г.");
+        System.out.print("Вес спорт-завтрака "+sumWeight+ " г.,");
 
         sumWeight = sumWeight/1000;
-        System.out.println("вес спорт-завтрака "+sumWeight+ " кг.");
+        System.out.println(" что составляет "+sumWeight+ " кг.");
+
+        System.out.println();
+        System.out.println("Задача 7");
+
+        short lose=7;
+        int loseGrams=lose*1000;
+
+        short lose250=250;
+        short lose500=500;
+
+        int Day250 = loseGrams/lose250;
+        int Day500 = loseGrams/lose500;
+        System.out.print("Если спортсмен будет терять по "+lose250+ " грамм в день, то он похудеет через " +Day250+ " дней,");
+        System.out.println("а если спортсмен будет терять по "+lose500+ " грамм в день, то он похудеет через " +Day500+ " дней.");
+
+        int generalDay = (Day250+Day500)/2;
+        System.out.println("В среднем спортсмен похудеет через " +generalDay+ " дней.");
 
     }
 }
