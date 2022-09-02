@@ -83,5 +83,35 @@ public class Main {
         paintBraun =classCount*paintBraun1;
 
         System.out.println("В школе, где " + classCount + " классов, нужно " +paintWhite+ " банок белой краски и " +paintBraun+ " банок коричневой краски.");
+
+        System.out.println();
+        System.out.println("Задача 6");
+
+        short bananas=5;
+        short Milk100ml=2;
+        short plombir=2;
+        short eggs=4;
+
+        short bananaGrams=80;
+        short Milk100mlGrams=105;
+        short plombirGrams=100;
+        short eggGrams=70;
+
+        int bananasWeight;
+        int Milk100mlWeight;
+        int plombirWeight;
+        int eggsWeight;
+
+        bananasWeight=bananas*bananaGrams;
+        Milk100mlWeight=Milk100ml*Milk100mlGrams;
+        plombirWeight=plombir*plombirGrams;
+        eggsWeight=eggs*eggGrams;
+
+        float sumWeight=bananasWeight+Milk100mlWeight+plombirWeight+eggsWeight;
+        System.out.println("вес спорт-завтрака "+sumWeight+ " г.");
+
+        sumWeight = sumWeight/1000;
+        System.out.println("вес спорт-завтрака "+sumWeight+ " кг.");
+
     }
 }
