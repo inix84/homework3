@@ -67,5 +67,21 @@ public class Main {
         System.out.println("За 3 дня машина произвела бутылок "+ rezult3Day+ " штук ");
         System.out.println("За месяц машина произвела бутылок "+ rezultMounth+ " штук ");
 
+        System.out.println();
+        System.out.println("Задача 5");
+
+        short paintAll=120;
+        int paintWhite;
+        int paintBraun;
+
+        short paintWhite1=2;
+        short paintBraun1=4;
+        int class1=paintWhite1+paintBraun1;
+
+        int classCount = paintAll/class1;
+        paintWhite = classCount*paintWhite1;
+        paintBraun =classCount*paintBraun1;
+
+        System.out.println("В школе, где " + classCount + " классов, нужно " +paintWhite+ " банок белой краски и " +paintBraun+ " банок коричневой краски.");
     }
 }
