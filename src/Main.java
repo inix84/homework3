@@ -46,5 +46,26 @@ public class Main {
         int paper1 = paperAll/sumStudents;
         System.out.println("на каждого ученика рассчитано по "+paper1+" листов бумаги.");
 
+        System.out.println();
+        System.out.println("Задача 4");
+        byte minute2=2;
+        short bottle=16;
+        int efficiency=bottle/minute2;
+
+        short minute20=20;
+        short minuteDay=24*60;
+        short minute3Day=3*24*60;
+        int minuteMounth = 30*24*60;
+
+        int rezult20=minute20*efficiency;
+        int rezultDay=minuteDay*efficiency;
+        int rezult3Day=minute3Day*efficiency;
+        int rezultMounth = minuteMounth*efficiency;
+
+        System.out.println("За 20 минут машина произвела бутылок " + rezult20 + " штук ");
+        System.out.println("За сутки машина произвела бутылок "+rezultDay + " штук ");
+        System.out.println("За 3 дня машина произвела бутылок "+ rezult3Day+ " штук ");
+        System.out.println("За месяц машина произвела бутылок "+ rezultMounth+ " штук ");
+
     }
 }
